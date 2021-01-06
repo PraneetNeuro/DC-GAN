@@ -212,4 +212,4 @@ class GAN:
         plt.savefig('image_at_epoch_{:04d}.png'.format(epoch))
 
 
-GAN('/Users/praneets/Downloads/mnist_png/training/')
+GAN('<PATH OF DATASET>')
