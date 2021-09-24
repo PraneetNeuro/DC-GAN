@@ -1,6 +1,5 @@
 # Deep Convolutional Generative Adversarial Networks
-A GAN built based on Convolutional Neural Networks. 
-This is a library that'll help you train GAN models with your own data.
+A python package that'll help you train DCGAN models with your own image based data.
 
 # Overview of GAN 
 The GAN involves two neural networks, a generator neural network and a discriminator neural network. 
