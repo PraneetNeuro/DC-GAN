@@ -1,5 +1,5 @@
 # Deep Convolutional Generative Adversarial Networks
-A GAN architecture built based on Convolutional Neural Networks. 
+A GAN built based on Convolutional Neural Networks. 
 
 # Overview of GAN 
 The GAN involves two neural networks, a generator neural network and a discriminator neural network. 
@@ -14,3 +14,15 @@ The generator neural network starts off by generating random noise which is mean
 Once the generator neural network is able to generate new meaningful data, there is no use for the discriminator neural network. In the case of DCGAN, we'll be using a Convolutional Neural Network as the discriminator and a neural network with fractional convolutional layers as the generator.
 The input to the generator is just randomly data of a particular shape.
 
+# Requirements
+1. Python 3.6
+2. Tensorflow 2.3
+3. opencv-python
+4. matplotlib
+
+# Usage
+```python
+import src
+
+GAN('<PATH OF THE TRAINING DATASET>')
+```
