@@ -24,5 +24,7 @@ The input to the generator is just randomly data of a particular shape.
 ```python
 import dcgan
 
-GAN('<PATH OF THE TRAINING DATASET>')
+model = GAN('<PATH OF THE TRAINING DATASET>')
+
+# Instantiating the GAN object will train the model and save it in the current working directory
 ```
