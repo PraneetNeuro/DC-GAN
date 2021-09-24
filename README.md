@@ -22,7 +22,7 @@ The input to the generator is just randomly data of a particular shape.
 
 # Usage
 ```python
-import src
+import dcgan
 
 GAN('<PATH OF THE TRAINING DATASET>')
 ```
